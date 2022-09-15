@@ -1,0 +1,250 @@
+object Form1: TForm1
+  Left = 849
+  Height = 411
+  Top = 134
+  Width = 579
+  Caption = 'Form1'
+  ClientHeight = 411
+  ClientWidth = 579
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 257
+    Height = 15
+    Top = 8
+    Width = 139
+    Caption = 'Crescimento Populacional'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 45
+    Width = 110
+    Caption = 'População Cidade A:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 33
+    Height = 15
+    Top = 82
+    Width = 109
+    Caption = 'População Cidade B:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 33
+    Height = 15
+    Top = 216
+    Width = 108
+    Caption = 'Tempo Transcorrido'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 35
+    Height = 15
+    Top = 256
+    Width = 98
+    Caption = 'População Final A:'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 32
+    Height = 15
+    Top = 296
+    Width = 97
+    Caption = 'População Final B:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 248
+    Height = 15
+    Top = 48
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 248
+    Height = 15
+    Top = 82
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 248
+    Height = 15
+    Top = 208
+    Width = 27
+    Caption = 'Anos'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 248
+    Height = 15
+    Top = 248
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 248
+    Height = 15
+    Top = 296
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Epopia: TEdit
+    Left = 160
+    Height = 23
+    Top = 40
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object Epopib: TEdit
+    Left = 160
+    Height = 23
+    Top = 78
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object Etempo: TEdit
+    Left = 160
+    Height = 23
+    Top = 208
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object Epopa: TEdit
+    Left = 160
+    Height = 23
+    Top = 248
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object Epopb: TEdit
+    Left = 160
+    Height = 23
+    Top = 288
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 4
+    Text = '0'
+  end
+  object Label12: TLabel
+    Left = 32
+    Height = 15
+    Top = 128
+    Width = 108
+    Caption = 'Taxa Crescimento A:'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 35
+    Height = 15
+    Top = 168
+    Width = 107
+    Caption = 'Taxa Crescimento B:'
+    ParentColor = False
+  end
+  object Etaxaa: TEdit
+    Left = 160
+    Height = 23
+    Top = 120
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 5
+    Text = '0'
+  end
+  object Etaxab: TEdit
+    Left = 160
+    Height = 23
+    Top = 160
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 6
+    Text = '0'
+  end
+  object Bcalcular: TButton
+    Left = 80
+    Height = 25
+    Top = 360
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = BcalcularClick
+    TabOrder = 7
+  end
+  object Blimpar: TButton
+    Left = 201
+    Height = 26
+    Top = 360
+    Width = 74
+    Caption = 'Limpar'
+    OnClick = BlimparClick
+    TabOrder = 8
+  end
+  object Bsair: TButton
+    Left = 321
+    Height = 25
+    Top = 361
+    Width = 75
+    Caption = 'Sair'
+    OnClick = BsairClick
+    TabOrder = 9
+  end
+  object Label14: TLabel
+    Left = 248
+    Height = 15
+    Top = 128
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 248
+    Height = 15
+    Top = 168
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+  object Chart1: TChart
+    Left = 376
+    Height = 256
+    Top = 55
+    Width = 300
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object Fline: TLineSeries
+    end
+    object FlineB: TLineSeries
+    end
+  end
+end

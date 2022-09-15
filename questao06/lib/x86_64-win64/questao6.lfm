@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 1067
+  Height = 240
+  Top = 126
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 142
+    Height = 15
+    Top = 17
+    Width = 147
+    Caption = 'Cáculo de Médias de Notas'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 73
+    Height = 15
+    Top = 101
+    Width = 94
+    Caption = 'Numero de Notas'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 15
+    Top = 138
+    Width = 33
+    Caption = 'Média'
+    ParentColor = False
+  end
+  object Bdigitar: TButton
+    Left = 118
+    Height = 25
+    Top = 56
+    Width = 107
+    Caption = 'Digitar as Notas'
+    OnClick = BdigitarClick
+    TabOrder = 0
+  end
+  object Blimpar: TButton
+    Left = 56
+    Height = 25
+    Top = 195
+    Width = 75
+    Caption = 'Limpar '
+    OnClick = BlimparClick
+    TabOrder = 1
+  end
+  object Bsair: TButton
+    Left = 208
+    Height = 25
+    Top = 195
+    Width = 75
+    Caption = 'Sair'
+    OnClick = BsairClick
+    TabOrder = 2
+  end
+  object EnumNotas: TEdit
+    Left = 197
+    Height = 23
+    Top = 101
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object Emedia: TEdit
+    Left = 197
+    Height = 23
+    Top = 138
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 4
+    Text = '0'
+  end
+end

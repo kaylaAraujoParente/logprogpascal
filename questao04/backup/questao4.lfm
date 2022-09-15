@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 1080
+  Height = 240
+  Top = 117
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 220
+  ClientWidth = 320
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 136
+    Height = 15
+    Top = 72
+    Width = 68
+    Caption = 'Temperatura'
+    ParentColor = False
+  end
+  object ETemp: TEdit
+    Left = 224
+    Height = 23
+    Top = 72
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object MResultado: TMemo
+    Left = 24
+    Height = 90
+    Top = 120
+    Width = 280
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    Left = 256
+    Top = 8
+    object MenuItem1: TMenuItem
+      Caption = 'converter'
+      object CparaF: TMenuItem
+        Caption = '°C para °F'
+        OnClick = CparaFClick
+      end
+      object FparaC: TMenuItem
+        Caption = '°F para °C'
+        OnClick = FparaCClick
+      end
+    end
+    object Limpar: TMenuItem
+      Caption = 'Limpar Tudo'
+      OnClick = LimparClick
+    end
+    object Sair: TMenuItem
+      Caption = 'Sair'
+      OnClick = SairClick
+    end
+  end
+end

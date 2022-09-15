@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 922
+  Height = 240
+  Top = 139
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object EgrausC: TEdit
+    Left = 152
+    Height = 23
+    Top = 66
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object EgrausF: TEdit
+    Left = 152
+    Height = 23
+    Top = 112
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object BCparaF: TButton
+    Left = 24
+    Height = 25
+    Top = 66
+    Width = 75
+    Caption = '°F para °C'
+    OnClick = BCparaFClick
+    TabOrder = 2
+  end
+  object BFparaC: TButton
+    Left = 24
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = '°C para °F'
+    OnClick = BFparaCClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 31
+    Width = 238
+    Caption = 'Transformação de Escalas de Temperaturas'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 246
+    Height = 15
+    Top = 66
+    Width = 13
+    Caption = '°C'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 246
+    Height = 15
+    Top = 120
+    Width = 11
+    Caption = '°F'
+    ParentColor = False
+  end
+  object Bsair: TButton
+    Left = 160
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 4
+  end
+  object Blimpar: TButton
+    Left = 40
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 5
+  end
+end

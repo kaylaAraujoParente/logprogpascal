@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 1006
+  Height = 240
+  Top = 115
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 85
+    Height = 15
+    Top = 24
+    Width = 149
+    Caption = 'Cálculo de Reajusto Salarial'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 96
+    Width = 80
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 57
+    Width = 74
+    Caption = 'Salário Antigo'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 168
+    Height = 15
+    Top = 56
+    Width = 96
+    Caption = 'Salário Reajustado'
+    ParentColor = False
+  end
+  object Mresultado: TMemo
+    Left = 152
+    Height = 90
+    Top = 77
+    Width = 150
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object Bcalcular: TButton
+    Left = 36
+    Height = 25
+    Top = 202
+    Width = 75
+    Caption = 'CALCULAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BcalcularClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Blimpar: TButton
+    Left = 128
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 3
+  end
+  object Bsair: TButton
+    Left = 224
+    Height = 25
+    Top = 197
+    Width = 75
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 4
+  end
+end

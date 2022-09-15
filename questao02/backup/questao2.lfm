@@ -1,0 +1,145 @@
+object Form1: TForm1
+  Left = 962
+  Height = 240
+  Top = 84
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 15
+    Top = 8
+    Width = 148
+    Caption = 'Programa sobre Triângulos'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 15
+    Top = 64
+    Width = 37
+    Caption = 'Lado A'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 9
+    Height = 15
+    Top = 104
+    Width = 37
+    Caption = 'Lado B'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 10
+    Height = 15
+    Top = 143
+    Width = 36
+    Caption = 'Lado C'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object EladoA: TEdit
+    Left = 64
+    Height = 23
+    Top = 56
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object EladoB: TEdit
+    Left = 64
+    Height = 23
+    Top = 96
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object EladoC: TEdit
+    Left = 64
+    Height = 23
+    Top = 137
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object Btriangulo: TButton
+    Left = 160
+    Height = 25
+    Top = 48
+    Width = 150
+    Caption = 'Formam um Triângulo?'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BtrianguloClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Blimpar: TButton
+    Left = 40
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 4
+  end
+  object Bsair: TButton
+    Left = 184
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 5
+  end
+  object Mresultado: TMemo
+    Left = 160
+    Height = 80
+    Top = 88
+    Width = 150
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 6
+  end
+end

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="questao08.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="questao8.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="75"/>
+        <CursorPos X="27" Y="82"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="questao8.pas"/>
+        <Caret TopLine="23"/>
+      </Position1>
+      <Position2>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="82" Column="8" TopLine="58"/>
+      </Position2>
+      <Position3>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="90" Column="5" TopLine="59"/>
+      </Position3>
+      <Position4>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="96" Column="11" TopLine="69"/>
+      </Position4>
+      <Position5>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="101" Column="9" TopLine="74"/>
+      </Position5>
+      <Position6>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="72" Column="23" TopLine="53"/>
+      </Position6>
+      <Position7>
+        <Filename Value="questao8.pas"/>
+        <Caret Line="82" Column="26" TopLine="61"/>
+      </Position7>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

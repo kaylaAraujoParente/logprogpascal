@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 1075
+  Height = 339
+  Top = 145
+  Width = 314
+  Caption = 'Calculo de Area de Triangulo'
+  ClientHeight = 339
+  ClientWidth = 314
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 30
+    Width = 54
+    Caption = 'Altura (m)'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 72
+    Width = 46
+    Caption = 'Base (m)'
+    ParentColor = False
+  end
+  object EditAltura: TEdit
+    Left = 137
+    Height = 23
+    Top = 30
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0.0'
+  end
+  object EditBase: TEdit
+    Left = 137
+    Height = 23
+    Top = 72
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0.0'
+  end
+  object EditArea: TEdit
+    Left = 137
+    Height = 23
+    Top = 120
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0.0'
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 128
+    Width = 50
+    Caption = 'Área (m²)'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 100
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 100
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Sair'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+end
